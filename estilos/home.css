@@ -1,0 +1,36 @@
+#meu-carousel {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 7rem;
+    animation: carousel 15s ease-in-out 0s infinite normal forwards;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes carousel {
+    0% {
+        background-image: url("https://www.linx.com.br/app/uploads/2022/08/shutterstock_1723989400.jpg");
+    }
+
+    20% {
+        background-image: url("https://ctrlplay.com.br/wp-content/uploads/2020/04/ctrlplay_ctrlplay_image_223.jpeg");
+    }
+
+    40% {
+        background-image: url("https://ctrlplay.com.br/wp-content/uploads/2020/04/ctrlplay_ctrlplay_image_223.jpeg");
+    }
+
+    60% {
+        background-image: url("https://blog.portabilis.com.br/wp-content/uploads/2017/06/entenda-quais-sao-os-desafios-de-ensinar-na-era-digital-1.jpeg");
+    }
+
+    80% {
+        background-image: url("https://blog.portabilis.com.br/wp-content/uploads/2017/06/entenda-quais-sao-os-desafios-de-ensinar-na-era-digital-1.jpeg");
+    }
+
+    100% {
+        background-image: url("https://www.linx.com.br/app/uploads/2022/08/shutterstock_1723989400.jpg");
+    }
+}
