@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    padding-top: 7rem; /* Altura do header */
+    overflow: auto; /* Ativa a barra de rolagem quando necessário */
+}
+
+.grid-item {
+    position: relative;
+    width: 100%;
+    padding-bottom: 0; /* removido para que o tamanho seja determinado pelo iframe */
+    height: 0; /* altura inicial zero para dimensionamento automático */
+    padding-bottom: 56.25%; /* proporção 16:9 para vídeos responsivos */
+}
+
+.grid-item iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none; /* remove a borda padrão do iframe */
+}

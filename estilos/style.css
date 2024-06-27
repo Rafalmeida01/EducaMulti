@@ -3,6 +3,9 @@ html {
 
 }
 
+body {
+    font-family: Arial, sans-serif;
+}    
 header {
     background: rgb(34,161,222);
     background: linear-gradient(90deg, rgba(34,161,222,1) 0%, rgba(0,39,176,1) 60%);
