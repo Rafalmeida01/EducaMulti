@@ -11,26 +11,23 @@
 
 @keyframes carousel {
     0% {
+        background-image: url("https://blog.portabilis.com.br/wp-content/uploads/2017/06/entenda-quais-sao-os-desafios-de-ensinar-na-era-digital-1.jpeg");
+    }
+    33% {
         background-image: url("https://www.linx.com.br/app/uploads/2022/08/shutterstock_1723989400.jpg");
     }
-
-    20% {
+    66% {
         background-image: url("https://ctrlplay.com.br/wp-content/uploads/2020/04/ctrlplay_ctrlplay_image_223.jpeg");
     }
-
-    40% {
-        background-image: url("https://ctrlplay.com.br/wp-content/uploads/2020/04/ctrlplay_ctrlplay_image_223.jpeg");
-    }
-
-    60% {
-        background-image: url("https://blog.portabilis.com.br/wp-content/uploads/2017/06/entenda-quais-sao-os-desafios-de-ensinar-na-era-digital-1.jpeg");
-    }
-
-    80% {
-        background-image: url("https://blog.portabilis.com.br/wp-content/uploads/2017/06/entenda-quais-sao-os-desafios-de-ensinar-na-era-digital-1.jpeg");
-    }
-
     100% {
-        background-image: url("https://www.linx.com.br/app/uploads/2022/08/shutterstock_1723989400.jpg");
+        background-image: url("https://blog.portabilis.com.br/wp-content/uploads/2017/06/entenda-quais-sao-os-desafios-de-ensinar-na-era-digital-1.jpeg");
     }
+
+}
+.section_1 {
+    position: relative;  
+    background-color: white; 
+    margin-top: -3rem; 
+    padding: 1rem; 
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.5);
 }
